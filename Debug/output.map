@@ -17052,7 +17052,7 @@ OUTPUT(mlm32l07x01.elf elf32-littlearm)
  .debug_line    0x000328ac      0xad8 Projects/Src/tim.o
  .debug_line    0x00033384      0xa6b Projects/Src/usart.o
 
-.debug_info     0x00000000    0x56e14
+.debug_info     0x00000000    0x56e15
  .debug_info    0x00000000       0x22 Application/SW4STM32/startup_stm32l072xx.o
  .debug_info    0x00000022     0x120e B-L072Z-LRWAN1/b-l072z-lrwan1.o
  .debug_info    0x00001230     0x1a14 Drivers/BSP/CMWX1ZZABZ-0xx/mlm32l07x01.o
@@ -17102,16 +17102,16 @@ OUTPUT(mlm32l07x01.elf elf32-littlearm)
  .debug_info    0x000453f6     0x106a Projects/End_Node/hw_gpio.o
  .debug_info    0x00046460     0x19a4 Projects/End_Node/hw_rtc.o
  .debug_info    0x00047e04     0x1426 Projects/End_Node/hw_spi.o
- .debug_info    0x0004922a     0x30c7 Projects/End_Node/main.o
- .debug_info    0x0004c2f1     0x12f1 Projects/End_Node/mlm32l0xx_hal_msp.o
- .debug_info    0x0004d5e2     0x1874 Projects/End_Node/mlm32l0xx_hw.o
- .debug_info    0x0004ee56     0x16fb Projects/End_Node/mlm32l0xx_it.o
- .debug_info    0x00050551     0x16f0 Projects/End_Node/vcom.o
- .debug_info    0x00051c41     0x1216 Projects/Src/adc.o
- .debug_info    0x00052e57      0xf4e Projects/Src/gpio.o
- .debug_info    0x00053da5      0xff9 Projects/Src/syscalls.o
- .debug_info    0x00054d9e     0x11ea Projects/Src/tim.o
- .debug_info    0x00055f88      0xe8c Projects/Src/usart.o
+ .debug_info    0x0004922a     0x30c8 Projects/End_Node/main.o
+ .debug_info    0x0004c2f2     0x12f1 Projects/End_Node/mlm32l0xx_hal_msp.o
+ .debug_info    0x0004d5e3     0x1874 Projects/End_Node/mlm32l0xx_hw.o
+ .debug_info    0x0004ee57     0x16fb Projects/End_Node/mlm32l0xx_it.o
+ .debug_info    0x00050552     0x16f0 Projects/End_Node/vcom.o
+ .debug_info    0x00051c42     0x1216 Projects/Src/adc.o
+ .debug_info    0x00052e58      0xf4e Projects/Src/gpio.o
+ .debug_info    0x00053da6      0xff9 Projects/Src/syscalls.o
+ .debug_info    0x00054d9f     0x11ea Projects/Src/tim.o
+ .debug_info    0x00055f89      0xe8c Projects/Src/usart.o
 
 .debug_abbrev   0x00000000     0xba08
  .debug_abbrev  0x00000000       0x12 Application/SW4STM32/startup_stm32l072xx.o
@@ -17294,7 +17294,7 @@ OUTPUT(mlm32l07x01.elf elf32-littlearm)
  .debug_aranges
                 0x00001e30       0x20 Projects/Src/usart.o
 
-.debug_str      0x00000000    0xa8393
+.debug_str      0x00000000    0xa83aa
  .debug_str     0x00000000      0x16e Application/SW4STM32/startup_stm32l072xx.o
  .debug_str     0x0000016e    0x89337 B-L072Z-LRWAN1/b-l072z-lrwan1.o
                               0x8980a (size before relaxing)
@@ -17392,25 +17392,25 @@ OUTPUT(mlm32l07x01.elf elf32-littlearm)
                               0x8bd12 (size before relaxing)
  .debug_str     0x000a5df6      0x11a Projects/End_Node/hw_spi.o
                               0x8b5b0 (size before relaxing)
- .debug_str     0x000a5f10      0xcf0 Projects/End_Node/main.o
-                              0x8d265 (size before relaxing)
- .debug_str     0x000a6c00       0xd8 Projects/End_Node/mlm32l0xx_hal_msp.o
+ .debug_str     0x000a5f10      0xd07 Projects/End_Node/main.o
+                              0x8d27c (size before relaxing)
+ .debug_str     0x000a6c17       0xd8 Projects/End_Node/mlm32l0xx_hal_msp.o
                               0x8b7d4 (size before relaxing)
- .debug_str     0x000a6cd8      0x311 Projects/End_Node/mlm32l0xx_hw.o
+ .debug_str     0x000a6cef      0x311 Projects/End_Node/mlm32l0xx_hw.o
                               0x8b996 (size before relaxing)
- .debug_str     0x000a6fe9      0x218 Projects/End_Node/mlm32l0xx_it.o
+ .debug_str     0x000a7000      0x218 Projects/End_Node/mlm32l0xx_it.o
                               0x8ba3b (size before relaxing)
- .debug_str     0x000a7201       0xdc Projects/End_Node/vcom.o
+ .debug_str     0x000a7218       0xdc Projects/End_Node/vcom.o
                               0x8b8de (size before relaxing)
- .debug_str     0x000a72dd       0x20 Projects/Src/adc.o
+ .debug_str     0x000a72f4       0x20 Projects/Src/adc.o
                               0x892d0 (size before relaxing)
- .debug_str     0x000a72fd       0x17 Projects/Src/gpio.o
+ .debug_str     0x000a7314       0x17 Projects/Src/gpio.o
                               0x89058 (size before relaxing)
- .debug_str     0x000a7314     0x1042 Projects/Src/syscalls.o
+ .debug_str     0x000a732b     0x1042 Projects/Src/syscalls.o
                                0x85b4 (size before relaxing)
- .debug_str     0x000a8356       0x25 Projects/Src/tim.o
+ .debug_str     0x000a836d       0x25 Projects/Src/tim.o
                               0x89469 (size before relaxing)
- .debug_str     0x000a837b       0x18 Projects/Src/usart.o
+ .debug_str     0x000a8392       0x18 Projects/Src/usart.o
                               0x891b4 (size before relaxing)
 
 .debug_ranges   0x00000000     0x2d40
@@ -17529,7 +17529,7 @@ OUTPUT(mlm32l07x01.elf elf32-littlearm)
  .debug_loc     0x0001703b      0x469 Projects/Src/syscalls.o
  .debug_loc     0x000174a4       0x74 Projects/Src/tim.o
 
-.debug_macro    0x00000000    0x25fb3
+.debug_macro    0x00000000    0x25fb9
  .debug_macro   0x00000000      0x3a2 B-L072Z-LRWAN1/b-l072z-lrwan1.o
  .debug_macro   0x000003a2      0xa54 B-L072Z-LRWAN1/b-l072z-lrwan1.o
  .debug_macro   0x00000df6       0xb8 B-L072Z-LRWAN1/b-l072z-lrwan1.o
@@ -17700,26 +17700,26 @@ OUTPUT(mlm32l07x01.elf elf32-littlearm)
  .debug_macro   0x00022198      0x48f Projects/End_Node/hw_gpio.o
  .debug_macro   0x00022627      0x50e Projects/End_Node/hw_rtc.o
  .debug_macro   0x00022b35      0x48f Projects/End_Node/hw_spi.o
- .debug_macro   0x00022fc4      0x612 Projects/End_Node/main.o
- .debug_macro   0x000235d6       0x10 Projects/End_Node/main.o
- .debug_macro   0x000235e6       0x16 Projects/End_Node/main.o
- .debug_macro   0x000235fc       0xe2 Projects/End_Node/main.o
- .debug_macro   0x000236de      0x4a3 Projects/End_Node/mlm32l0xx_hal_msp.o
- .debug_macro   0x00023b81      0x4e1 Projects/End_Node/mlm32l0xx_hw.o
- .debug_macro   0x00024062      0x49d Projects/End_Node/mlm32l0xx_it.o
- .debug_macro   0x000244ff      0x493 Projects/End_Node/vcom.o
- .debug_macro   0x00024992      0x35a Projects/Src/adc.o
- .debug_macro   0x00024cec       0xdc Projects/Src/adc.o
- .debug_macro   0x00024dc8      0x35a Projects/Src/gpio.o
- .debug_macro   0x00025122      0x243 Projects/Src/syscalls.o
- .debug_macro   0x00025365      0x122 Projects/Src/syscalls.o
- .debug_macro   0x00025487       0x10 Projects/Src/syscalls.o
- .debug_macro   0x00025497      0x241 Projects/Src/syscalls.o
- .debug_macro   0x000256d8      0x189 Projects/Src/syscalls.o
- .debug_macro   0x00025861       0x16 Projects/Src/syscalls.o
- .debug_macro   0x00025877       0x88 Projects/Src/syscalls.o
- .debug_macro   0x000258ff      0x35a Projects/Src/tim.o
- .debug_macro   0x00025c59      0x35a Projects/Src/usart.o
+ .debug_macro   0x00022fc4      0x618 Projects/End_Node/main.o
+ .debug_macro   0x000235dc       0x10 Projects/End_Node/main.o
+ .debug_macro   0x000235ec       0x16 Projects/End_Node/main.o
+ .debug_macro   0x00023602       0xe2 Projects/End_Node/main.o
+ .debug_macro   0x000236e4      0x4a3 Projects/End_Node/mlm32l0xx_hal_msp.o
+ .debug_macro   0x00023b87      0x4e1 Projects/End_Node/mlm32l0xx_hw.o
+ .debug_macro   0x00024068      0x49d Projects/End_Node/mlm32l0xx_it.o
+ .debug_macro   0x00024505      0x493 Projects/End_Node/vcom.o
+ .debug_macro   0x00024998      0x35a Projects/Src/adc.o
+ .debug_macro   0x00024cf2       0xdc Projects/Src/adc.o
+ .debug_macro   0x00024dce      0x35a Projects/Src/gpio.o
+ .debug_macro   0x00025128      0x243 Projects/Src/syscalls.o
+ .debug_macro   0x0002536b      0x122 Projects/Src/syscalls.o
+ .debug_macro   0x0002548d       0x10 Projects/Src/syscalls.o
+ .debug_macro   0x0002549d      0x241 Projects/Src/syscalls.o
+ .debug_macro   0x000256de      0x189 Projects/Src/syscalls.o
+ .debug_macro   0x00025867       0x16 Projects/Src/syscalls.o
+ .debug_macro   0x0002587d       0x88 Projects/Src/syscalls.o
+ .debug_macro   0x00025905      0x35a Projects/Src/tim.o
+ .debug_macro   0x00025c5f      0x35a Projects/Src/usart.o
 
 .comment        0x00000000       0x7f
  .comment       0x00000000       0x7f B-L072Z-LRWAN1/b-l072z-lrwan1.o
