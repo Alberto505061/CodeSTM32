@@ -60,7 +60,7 @@ extern "C" {
 /* Private defines -----------------------------------------------------------*/
 
 
-const uint8_t BATTERY_ID = 0x01;
+const uint8_t BATTERY_ID = 0x02;
 const uint8_t PMSENSOR1_ID = 0x02;
 const uint8_t PMSENSOR25_ID = 0x03;
 const uint8_t PMSENSOR10_ID = 0x04;
